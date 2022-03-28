@@ -1,5 +1,4 @@
 import io
-import asyncio
 from uuid import UUID, uuid4
 from pathlib import Path
 
@@ -28,7 +27,6 @@ class ImagesService(BaseService):
         for size, (width, height) in FILE_SIZES.items():
             if size == FileSizes.original:
                 resized_image = image
-                # continue
             else:
                 resized_image = resize_image(image=image, width=width, height=height)
 
