@@ -9,8 +9,8 @@ python = "^3.10"
 fastapi = "^0.75.0"
 python-dotenv = "^0.19.2"
 python-multipart = "^0.0.5"
-uvicorn = "^0.17.6"
 Pillow = "^9.0.1"
+uvicorn = "^0.17.6"
 
 [tool.poetry.dev-dependencies]
 pycycle = "^0.0.8"
