@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  image-service:
+    image: markantipin/images-service:latest
+    volumes:
+      - images:/images
+    restart: always
+    ports:
+      - 8080:8080
+
+volumes:
+  images:
+
